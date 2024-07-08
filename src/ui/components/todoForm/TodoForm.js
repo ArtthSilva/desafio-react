@@ -13,19 +13,18 @@ const TodoForm = ({ addTask }) => {
     };
 
     return (
-
-        <form onSubmit={handleSubmit}>
+        <form className={styles.formTask} onSubmit={handleSubmit}>
             <h1>To-Do List</h1>
-
             <input className={styles.input}
                 id="task"
                 name="task"
                 placeholder="Nome da tarefa"
                 type="text"
-                value={task}
+                autoComplete="off"                
+                value={task}                    
                 onChange={(e) => setTask(e.target.value)}
             />
-            <button type="submit">Adicionar tarefa</button>
+            <button className={styles.addTaskButton} type="submit">Adicionar tarefa</button>
         </form>
     );
 };

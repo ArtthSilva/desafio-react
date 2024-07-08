@@ -1,0 +1,34 @@
+input {
+  padding: 10px;
+   width: 60%;
+  background-color: #010101;
+  color: #fff;
+}
+
+.formTask {
+    width: 100%;
+  border-radius: 10px;
+}
+
+::-webkit-input-placeholder {
+  color: gray;
+}
+
+h1 {
+  padding: 24px;
+}
+
+.addTaskButton {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+  cursor: pointer;
+  width: 39%;
+  margin-bottom: 10px;
+}
+
+.addTaskButton:hover {
+  background-color: #2eb44d;
+}

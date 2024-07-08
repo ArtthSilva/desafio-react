@@ -52,7 +52,7 @@ Certifique-se de ter o Node.js instalado na sua máquina.
    $ npm start
 
    Abra o navegador e acesse: 
-   http://localhost:3000.
+   http://localhost:3000
 
    ```
 

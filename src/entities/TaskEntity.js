@@ -1,9 +1,8 @@
 export class TaskEntity {
 
-    constructor({ id, title, completed }) {
+    constructor({ id, title }) {
         this.id = id
         this.title = title
-        this.completed = completed
     }
 }
 export default TaskEntity

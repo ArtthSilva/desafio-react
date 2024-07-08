@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.scrollable {
+    overflow-y: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 10px;
+}
+
+.removeTaskButton {
+    cursor: pointer;
+    width: 4.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    margin: 0 5px;
+    color: #fff;
+    background-color: darkred;
+}
+
+.task {
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: rgb(26, 27, 27);
+    overflow-y: auto;
+    width: 100%;
+}
+
+ul {
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: #fff;
+    font-size: 33px;
+}
+
+li {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 33px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.pagination button {
+    margin: 0 5px;
+    font-size: 1rem;
+    cursor: pointer;
+     padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.prevPaginationButton{
+    background-color: #062e3f;
+     width: 50%;
+}
+
+.nextPaginationButton{
+    width: 50%;
+    background-color: #2d8288;
+ }
+
+.prevPaginationButton:disabled, .nextPaginationButton:disabled {
+    background-color: #a0a0a0; 
+    color: #fff;
+    cursor: not-allowed;
+    opacity: 0.6;  
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.pagination button {
+    color: #fff;
+    margin-top: 20px;
+     padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.pagination span {
+    margin: 0 10px;
+    font-size: 1rem;
+}
